@@ -6,11 +6,16 @@ header {
   height: 100px;
   display: inline-block;
   border-bottom: 1px solid lightgray;
-  
+  margin-top:-6px;
 }
 
 body {
   background-image: url("circles-light.png");
+}
+
+h1 {
+  color: teal;
+  font-size: 20px;
 }
 
 #my-name {
@@ -39,17 +44,18 @@ width:30%;
   width: 500px; 
   margin: 0 auto;
   margin-top: 2px;
-  margin-bottom: 100px;
+  margin-bottom: 170px;
 
 }
 
 #name {
    padding: 10px;
+   font-size:20px;
    text-align: center;
    background-color: teal;
    color: white;
   position: absolute;
-  bottom: -20px;
+  bottom: -11px;
     margin-left: 31.5%; 
   display: inline;
 }
@@ -73,7 +79,7 @@ ul {
   .border {
 
     background: teal;
-    height: 20px;
+    height: 5px;
   }
 
 footer {
@@ -90,22 +96,25 @@ footer {
  #submit {
     background-color: teal;
     padding: 10px;
+    color: white;
  }
 
  #kname {
   float: left;
   width:10%; 
-  margin-top: 3.75%;
+  margin-top: 4.75%;
   margin-left: 15%;
+  
   }
 
   .kname {
-
+font-size:20px;
     padding: 10px;
    text-align: center;
    background-color: teal;
    color: white;
   display: inline;
+  
   
   }
 
@@ -123,15 +132,14 @@ footer {
   height: 400px;
   margin: 0 auto;
   margin-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 175px;
 
 }
 
  #main-bio {
   float: left;
-  width: 100%; 
-
- }
+  width: 100%;
+}
 
  #bio-image {
   float: left;
@@ -146,7 +154,7 @@ p {
 .border1 {
 
   background: teal;
-    height: 20px;
+    height: 5px;
     margin-top:10%;
 }
 
@@ -158,11 +166,12 @@ p {
 
   .mename {
 position: absolute;
+font-size: 20px;
     padding: 10px;
    text-align: center;
    background-color: teal;
    color: white;
-   bottom: -20.5px;
+   bottom: -14.75px;
   margin-left: 27.5%;
   display: inline;
   }
@@ -175,7 +184,7 @@ position: absolute;
   height:550px;
   margin: 0 auto;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #list3 {
